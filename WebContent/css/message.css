@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.time{
+	float: right;
+}
+.reply{
+	text-indent: 20px;
+}
+section{
+	margin: 10px 20px;
+	padding:20px;
+	background-color: #e9e9e9;
+}
+.mcontent{
+	font-size: 16px;
+	font-weight: bold;
+}
+.user{
+	font-weight: bold;
+}
+.hidden{
+	width: 0px;
+	height: 0px;
+}
+.contentinput{
+	margin-left:50px;
+	width: 800px;
+}
+.contentinput input {
+	width: 800px;
+	border: solid 1px #009688; 
+}
+.content button{
+	position:relative;
+	top:2px;
+	right:5px;
+	height: 38px;
+	background-color:#009688;
+	border: 0px;
+	width: 60px;
+}

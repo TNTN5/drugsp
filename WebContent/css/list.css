@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body{
+	background-color: #fff;
+}
+tfoot{
+	text-align: center;
+}
+tfoot input{
+	width: 15px;
+	border:0px;
+}
+.search{
+	margin-left: 300px;
+}
+.search .layui-input-inline{
+	width: 300px;
+}
+.search input{
+	width: 280px;
+}
+.search button{
+	border:0px;
+	background-color: #fff;
+	cursor: pointer;
+	margin-left: -25px;
+}
+.updateuserdiv{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(205,205,205,0.5);
+	overflow:scroll;
+	display: none;
+}
+.updateuser{
+	border:1px solid #808080;
+	width: 500px;
+	height: 400px;
+	padding:30px 30px 20px 0px;
+	margin:100px auto;
+	background-color: #fff;
+}
+.hidden{
+	display:none;
+}
+.decpict{
+	max-width: 150px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}

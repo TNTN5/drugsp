@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.order{
+	margin: 10px 20px;
+	padding:20px;
+	background-color: #e9e9e9;
+}
+.order span:nth-child(2){
+	margin-left: 200px;
+}
+.order span:nth-child(3){
+	float: right;
+}
+.order button{
+	padding:5px;
+	background-color: #009688;
+	border: 0px;
+	border-radius: 5px;
+}
